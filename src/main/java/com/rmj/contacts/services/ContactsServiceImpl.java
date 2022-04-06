@@ -13,15 +13,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-@Transactional
 public class ContactsServiceImpl implements ContactsService {
     @Autowired
-    private final ContactsRepository contactsRepository;
-
-    public ContactsServiceImpl(ContactsRepository contactsRepository) {
-
-        this.contactsRepository = contactsRepository;
-    }
+    private ContactsRepository contactsRepository;
 
     @Override
     public List<Contact> getContacts() {

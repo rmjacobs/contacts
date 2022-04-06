@@ -4,7 +4,7 @@ import com.rmj.contacts.model.Address;
 import com.rmj.contacts.model.Contact;
 import com.rmj.contacts.model.Name;
 import com.rmj.contacts.model.Phone;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
@@ -18,7 +18,7 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-class ContactsRepositoryTest {
+public class ContactsRepositoryTest {
     @Autowired
     private TestEntityManager entityManager;
 
