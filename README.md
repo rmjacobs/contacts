@@ -24,29 +24,31 @@ client of your choice ( cURL, Postman,etc.)
 Sample Input:
 ```
 {
-address": {
+  "address": {
     "street": "1234 Main",
     "city": "Columbus",
-    "state":"OH",
+    "state": "OH",
     "zip": "43221"
-},
-"email": "john@doe.com",
-"name" : {
-    "first":"John",
+  },
+  "email": "john@doe.com",
+  "name": {
+    "first": "John",
     "middle": "A",
     "last": "Doe"
-},
-    "phone": [{
-        "number": "1-614-555-1212",
-        "type": "mobile"
+  },
+  "phone": [
+    {
+      "number": "1-614-555-1212",
+      "type": "mobile"
     },
     {
-        "number": "1-614-555-1234",
-        "type": "home"
-},{
-        "number": "1-614-555-4242",
-        "type": "work"
-}
-]
+      "number": "1-614-555-1234",
+      "type": "home"
+    },
+    {
+      "number": "1-614-555-4242",
+      "type": "work"
+    }
+  ]
 }
 ```
