@@ -37,12 +37,16 @@ address": {
     "last": "Doe"
 },
     "phone": [{
-        "number": "1234",
+        "number": "1-614-555-1212",
         "type": "mobile"
     },
     {
-        "number": "12345",
+        "number": "1-614-555-1234",
         "type": "home"
-}]
+},{
+        "number": "1-614-555-4242",
+        "type": "work"
+}
+]
 }
 ```
